@@ -1,0 +1,142 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+#narbar {
+    padding: 8px;
+    margin: 0;
+}
+
+h1 {
+    text-align: center;
+    text-transform: uppercase;
+}
+
+#banner {
+    width: 100%;
+}
+
+#team {
+    width: 50%;
+}
+
+#team-image {
+    border-radius: 5px;
+    width: 100%;
+}
+
+#about {
+    display: flex;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 8px;
+}
+
+#description {
+    width: 50%;
+    padding-right: 8px;
+}
+
+a {
+    text-decoration: none;
+}
+#jobs-table{
+    width: 100%;
+    border: 1px solid gray;
+    border-collapse: collapse;
+}
+.jobs-header-row th{
+    border: 1px solid gray;
+    padding: 8px;
+    background-color: aliceblue;
+    text-align: center;
+}
+.jobs-data-row td{
+    border: 1px solid gray;
+ padding: 8px;
+}
+#jobs table tr:nth-child(odd){
+background-color: ghostwhite;
+}
+
+h2 {
+    text-align: center;
+    text-transform: uppercase;
+}
+
+#jobs {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0 8px;
+}
+
+h3 {
+    margin-bottom: 8px;
+    margin-top: 0;
+}
+
+.apply {
+    float: right;
+}
+
+#footer{
+    background-color: ghostwhite;
+    padding: 8px;
+    margin-top: 32px;
+    text-align: center;
+}
+
+#footer-links {
+    list-style: none;
+    text-align: center;
+}
+
+#footer-links li {
+    display: inline;
+    margin: 0 16px;
+}
+.form-group {
+    margin: 16px 0;
+}
+
+#application-form label{ 
+    font-weight: 600px;
+}
+
+#applicatin-form input,select,textarea{
+    padding:4px;
+    font-size: 1.25rem;
+    border-radius: 5px;
+    border: 1px solid gray;
+    
+}
+.form-group textarea{
+    width: 80%;
+    font-family: 'roboto' sans-serif;
+}
+
+.form-group input [type="checkbox"] {
+    width: 16px;
+    height: 16px;
+}
+
+.form-group input [type="submit"] {
+    background-color: blue;
+    color: white;
+    font-weight: 500;
+    cursor:pointer ;
+
+}
+
+#application {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0 8px;
+}
+
+
+.coplyright {
+    color: gray;
+}
